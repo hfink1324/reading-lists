@@ -8,14 +8,14 @@ export default function Nav() {
           An important message
         </Link>
         <div className="flex gap-6 text-gray-600">
-          <Link href="/who" className="hover:text-black">
-            who
+          <Link href="/Mystery" className="hover:text-black">
+            the mystery
           </Link>
-          <Link href="/when" className="hover:text-black">
-            when
+          <Link href="/Trenchcoat" className="hover:text-black">
+            trenchcoat theory
           </Link>
-          <Link href="/how" className="hover:text-black">
-            how
+          <Link href="/Sowwy" className="hover:text-black">
+            sowwy rosie
           </Link>
         </div>
       </div>
