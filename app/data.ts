@@ -20,6 +20,7 @@ export type Entry = {
   expertSlug: string;
   textId: string;
   note: string;
+  mustRead?: boolean;
 };
 
 export const experts: Expert[] = [
@@ -62,6 +63,7 @@ export const entries: Entry[] = [
     expertSlug: "dr-creationism",
     textId: "the-bible",
     note: "One of the best texts in this field because you only have to skim it to get the gist.",
+    mustRead: true,
   },
   {
     expertSlug: "dr-creationism",

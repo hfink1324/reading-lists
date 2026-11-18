@@ -48,10 +48,15 @@ export default async function ExpertProfile({
 
           return (
             <li key={entry.textId} className="border-l-4 border-gray-200 pl-4">
-              <p className="font-semibold">{text.title}</p>
-              <p className="text-sm text-gray-600">
-                {text.authors} ({text.year})
-              </p>
+            {entry.mustRead && (
+                <p className="text-xs font-bold uppercase tracking-wide text-amber-600">
+                 ★ Must-read
+            </p>
+             )}
+    <p className="font-semibold">{text.title}</p>
+    <p className="text-sm text-gray-600">
+      {text.authors} ({text.year})
+    </p>
               <p className="mt-2">{entry.note}</p>
               <p className="mt-2 text-sm">
                 {text.doi && (
