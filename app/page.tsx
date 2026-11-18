@@ -3,10 +3,10 @@ export default function Home() {
     <main className="mx-auto max-w-2xl p-8">
       <h1 className="text-3xl font-bold">Reading Lists</h1>
       <p className="mt-4 text-lg">
-        What experts are reading
+        Reading lists
       </p>
       <p className="mt-2 text-gray-600">
-        By individual
+        reading lists
       </p>
     </main>
   );
