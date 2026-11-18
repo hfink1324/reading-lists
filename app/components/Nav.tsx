@@ -8,6 +8,9 @@ export default function Nav() {
           Reading Lists
         </Link>
         <div className="flex gap-6 text-gray-600">
+          <Link href="/submit" className="hover:text-black">
+          Submit
+          </Link>
           <Link href="/people" className="hover:text-black">
             People
           </Link>

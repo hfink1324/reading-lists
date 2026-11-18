@@ -27,7 +27,7 @@ export const experts: Expert[] = [
   {
     slug: "dr-creationism",
     name: "Dr. Creationism",
-    institution: "La-La Land",
+    institution: "La-La Land University",
     field: "Pseudoscience",
     bio: "I'm a pioneer in the field of brainwashing children.",
     site: "https://www.google.com",
@@ -68,7 +68,7 @@ export const entries: Entry[] = [
   {
     expertSlug: "dr-creationism",
     textId: "art-of-war",
-    note: "The culture war is coming for us and we must be prepared. Yes, Jesus references peace over 100 times in the bible, but he didn't know that one day his followers might be subjected to lessons on evolution in public schools!",
+    note: "The culture war is coming for us and we must be prepared.",
   },
   {
     expertSlug: "dr-creationism",
